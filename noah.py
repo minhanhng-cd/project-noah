@@ -7,10 +7,10 @@ from google.cloud import bigquery
 
 # --------- User Settings ---------
 CITY = "hanoi"
-TOKEN = "fad03333f56539354c8f43bbd0eaf84bce3fbeb4"
-DATABASE = "vn_air_quality"
-TABLE = "hourly_aqi"
-INTERVAL = 60
+TOKEN = # API Token
+DATABASE = # BigQuery Database ID
+TABLE = # BigQuery Table ID
+INTERVAL = 60 # Waiting time (minutes) between jobs
 # ---------------------------------
 
 def get_data():
